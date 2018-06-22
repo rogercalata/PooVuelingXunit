@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PooVuelingXunit", "PooVueli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PooVuelingXunit.Integration.Test", "PooVuelingXunit.Integration.Test\PooVuelingXunit.Integration.Test.csproj", "{8EF9FC57-E6F4-4113-9A8E-9ED1A326C02D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PooVuelingXunit.Unit.Tests", "PooVuelingXunit.Unit.Tests\PooVuelingXunit.Unit.Tests.csproj", "{C1D3F97A-4A47-47BD-ADFC-02DBB1553159}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8EF9FC57-E6F4-4113-9A8E-9ED1A326C02D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EF9FC57-E6F4-4113-9A8E-9ED1A326C02D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EF9FC57-E6F4-4113-9A8E-9ED1A326C02D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D3F97A-4A47-47BD-ADFC-02DBB1553159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D3F97A-4A47-47BD-ADFC-02DBB1553159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D3F97A-4A47-47BD-ADFC-02DBB1553159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D3F97A-4A47-47BD-ADFC-02DBB1553159}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
