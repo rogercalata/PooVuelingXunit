@@ -1,44 +1,47 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿
 using PooVuelingXunit;
+using PooVuelingXunit.Unit.Tests;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xunit;
 
 namespace PooVuelingXunit.Tests
 {
-    [TestClass()]
-    public class CalculadoraTests
+    
+    public class CalculadoraTests : IClassFixture<CalculadoraNmockTest>
     {
-        [TestMethod()]
-        public void s()
+        CalculadoraNmockTest fixture;
+        public CalculadoraTests(CalculadoraNmockTest fixture)
         {
-            Assert.Fail();
+            this.fixture = fixture;
+        }
+        [Fact]
+        public void Suma()
+        {
+            var result = fixture.MockObject.Suma(3, 2);
+            Assert.Equal(5, result);
+        }
+        [Fact]
+        public void Resta()
+        {
+            var result = fixture.MockObject.Resta(5, 2);
+            Assert.Equal(3, result);
+        }
+        [Fact]
+        public void Division()
+        {
+            var result = fixture.MockObject.Suma(6, 2);
+            Assert.Equal(3, result);
+        }
+        [Fact]
+        public void Multiplicacion()
+        {
+            var result = fixture.MockObject.Multiplicacion(6, 2);
+            Assert.Equal(12, result);
         }
 
-        [TestMethod()]
-        public void DivisionTest()
-        {
-            Assert.Fail();
-        }
-
-        [TestMethod()]
-        public void MultiplicacionTest()
-        {
-            Assert.Fail();
-        }
-
-        [TestMethod()]
-        public void RestaTest()
-        {
-            Assert.Fail();
-        }
-
-        [TestMethod()]
-        public void SumaTest()
-        {
-            Assert.Fail();
-        }
     }
 }
