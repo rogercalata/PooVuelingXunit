@@ -11,6 +11,7 @@ namespace PooVuelingXunit.Unit.Tests
 {
     public class CalculadoraNmockTest 
     {
+        //creamos el factory mock
         private MockFactory _factory = new MockFactory();
 
         public CalculadoraNmockTest()

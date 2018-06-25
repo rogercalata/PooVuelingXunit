@@ -12,7 +12,7 @@ namespace PooVuelingXunit
         {
             throw new NotImplementedException();
         }
-
+        //creacion de los metodos 
         public int Division(int num1, int num2)
         {
             return num1 / num2;

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace PooVuelingXunit
 {
+    //creacion de la interfaz
     public interface ICalculadora
     {
         int Suma(int num1, int num2);
