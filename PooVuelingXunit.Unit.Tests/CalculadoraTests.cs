@@ -40,7 +40,7 @@ namespace PooVuelingXunit.Tests
         [Fact]
         public void Division()
         {
-            var result = fixture.MockObject.Suma(6, 2);
+            var result = fixture.MockObject.Division(6, 2);
             Assert.Equal(3, result);
         }
 

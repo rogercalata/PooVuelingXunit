@@ -29,7 +29,7 @@ namespace PooVuelingXunit.Integration.Test
 
         //Xunit test Resta
         [Theory]
-        [InlineData(10, 5, 15)]
+        [InlineData(10, 5, 5)]
         [InlineData(2, 1, 1)]
         public void Resta(int num1, int num2, int result)
         {
@@ -39,10 +39,10 @@ namespace PooVuelingXunit.Integration.Test
         //Xunit test Division
         [Theory]
         [InlineData(10, 5, 2)]
-        [InlineData(2, 1, 1)]
+        [InlineData(2, 1, 2)]
         public void Division(int num1, int num2, int result)
         {
-            Assert.Equal(result, num1 % num2);
+            Assert.Equal(result, num1 / num2);
         }
 
         //Xunit test Multiplicacion
